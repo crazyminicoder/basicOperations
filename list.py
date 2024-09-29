@@ -28,3 +28,14 @@ print(ml)
 # pop/ pop([i]) i = position
 print(ml.pop())
 print(ml.pop(2))
+print(ml)
+
+# search and count operations
+# index index(x)/index(x, start, end)
+print(ml.index(10))
+print(ml.index(10, 1, 3))
+
+# count
+ml.extend([10, 5, 10, 9, 10, 68])
+print(ml)
+print(ml.count(10))
