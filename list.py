@@ -39,3 +39,13 @@ print(ml.index(10, 1, 3))
 ml.extend([10, 5, 10, 9, 10, 68])
 print(ml)
 print(ml.count(10))
+
+# Sorting and Reversing
+ml.sort()
+print(ml)
+ml.sort(reverse=True)
+print(ml)
+ml.sort(key=lambda x: x//2)
+print(ml)
+ml.reverse()
+print(ml)
