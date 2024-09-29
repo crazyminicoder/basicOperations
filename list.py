@@ -49,3 +49,24 @@ ml.sort(key=lambda x: x//2)
 print(ml)
 ml.reverse()
 print(ml)
+
+# Membership
+print(1 in ml)
+
+# Concatenation and Repetition
+ml2 = ml + [101, 15, 3]
+print(ml2)
+
+# repetition
+ml3 = [1, 2, 3]
+ml4 = ml3 * 2
+print(ml4)
+
+# Comprehension
+squares = [x**2 for x in range(6)]
+print(squares)
+
+
+# popping 9 from ml but I dont know the position of 9
+ml.pop(ml.index(9))
+print(ml)
